@@ -11,7 +11,6 @@ echo "1st operation= " $a "+" $b "x" $c
 echo "2nd operation= " $a "%" $b "+" $c
 echo "3rd operation= " $c "+" $a "/" $b
 echo "4th operation= " $a "x" $b "+" $c
-\n
 if((OP1>OP2 && OP1>OP3 && OP1>OP4))
  then 
    echo "1st operation gives maximum value"
